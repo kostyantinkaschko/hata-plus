@@ -749,6 +749,7 @@ footer {
 .homes {
     width: 100%;
     border-collapse: collapse;
+    border-radius: 23px;
 }
 
 
@@ -792,6 +793,11 @@ footer {
     border-top: 1rem solid #cdcddd;
 }
 
+
 .homes tbody>tr:first-child {
     border: none;
+}
+
+.homes tbody tr:last-child{
+
 }
