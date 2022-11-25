@@ -150,11 +150,13 @@ a.in {
 .contacs,
 .messengers {
     display: flex;
+    justify-content: space-between;
 }
 
 .messengers {
     position: relative;
-    margin-left: 32px;
+    margin-left: 35px;
+
 }
 
 .contacs ul,
@@ -210,21 +212,16 @@ a.in {
     border-bottom: 1px solid #25252c;
 }
 
-.logo {
-    padding-bottom: 18px;
-    padding-right: 45px;
-}
-
 .logo:before {
     height: 57px;
 }
 
 .main-info {
-    padding: 29px 0 0;
+    padding: 29px 0;
 }
 
 .main-information {
-    box-shadow: -1px 20px 26px 0 #f3f3f3;
+    box-shadow: 0 4px 5px 0 #f3f3f3;
 }
 
 .main-info ul {
@@ -450,6 +447,8 @@ figure {
 
 .aside-menu {
     width: 220rem;
+    border-radius: 3px;
+    overflow: hidden;
 }
 
 
@@ -560,7 +559,7 @@ figure {
 .main-list {
     display: flex;
     position: relative;
-    margin-bottom: 90px;
+    margin-bottom: 35px;
 }
 
 .main-list img {
@@ -605,13 +604,15 @@ figure {
 
 hr {
     margin: 38px 0 29px 0;
-    border-top: #e4e4ec;
+    border: none;
+    border-top: 1px solid #e4e4ec;
 }
 
 
 .hr {
-    border: 1px solid #e4e4ec;
     max-width: 710px;
+    border: none;
+    border-top: 1px solid #e4e4ec;
 }
 
 .table-info {
@@ -689,7 +690,7 @@ hr {
 .form iframe {
     margin: 0 27px 39px 0;
     max-width: 498px;
-    max-height: 301px;
+    max-height: 336px;
     background-image: url(../img/map.jpg);
     background-size: cover;
 }
@@ -699,6 +700,57 @@ hr {
     font-size: 14rem;
     font-weight: 700;
     font-family: "Roboto Slab";
+}
+
+.search input {
+    color: #262626;
+    font-size: 15px;
+    opacity: 0.702;
+    border: 1px solid#c4c4d3;
+    border-radius: 3px;
+}
+
+.search input:first-child,
+.mobile {
+    padding: 14px 78px 14px 14px;
+}
+
+.search input:first-child {
+    margin-right: 8px;
+}
+
+.message {
+    width: 100%;
+    padding: 14px 0 14px 14px;
+    margin: 10px 0;
+}
+
+.search input:last-child {
+    width: 100%;
+    padding: 14px 0 79px 14px;
+}
+
+.form-help button {
+    margin-top: 13px;
+    padding: 15px 12px;
+    width: 140px;
+    color: #fff;
+    font-size: 14rem;
+    font-weight: bold;
+    background-color: #fd8300;
+    border-radius: 25px;
+    border: 1px solid #fd8300;
+    cursor: pointer;
+}
+
+.form-help button:hover {
+    color: #fd8300;
+    background-color: #fff;
+
+}
+
+.buttons {
+    display: flex;
 }
 
 footer {
@@ -721,7 +773,7 @@ footer {
 }
 
 .front-footer {
-    padding: 15px 28px 28px 0;
+    padding: 40px 28px 30px 0;
 }
 
 
@@ -746,9 +798,6 @@ footer {
     border-bottom: transparent solid 2px;
 }
 
-.about-goods li {
-    height: 20px;
-}
 
 .about-goods li:not(.about-goods li:first-child) {
     padding-top: 6px;
@@ -836,6 +885,10 @@ footer {
     padding-top: 26px;
 }
 
+.after-table a:hover{
+    text-decoration: none;
+}
+
 
 .homes {
     width: 100%;
@@ -847,6 +900,12 @@ footer {
 
 .homes>thead>tr {
     background: #1f1f56;
+}
+
+.homes thead th:last-child,
+.homes tr td:last-child{
+    text-align: right;
+    padding-right: 19px;
 }
 
 .homes tbody {
