@@ -914,13 +914,14 @@ footer {
 
 
 
-.homes th {
+.homes h4 {
+    margin: 0;
+    padding: 17px 0 16px 20px;
     color: #ffffff;
     font-size: 14rem;
     font-weight: 700;
     font-family: 'Roboto Slab', serif;
     text-align: left;
-    padding: 17px 0 16px 20px;
 }
 
 .homes tbody>tr:hover {
