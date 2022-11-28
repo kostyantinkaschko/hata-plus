@@ -429,13 +429,13 @@ main p {
     font-size: 14rem;
     font-weight: bold;
     font-family: "Arial";
+    
     text-decoration: underline;
 }
 
 .main-text a:hover {
     color: #666;
     text-decoration: none;
-    filter: drop-shadow(2px 4px 6px black);
 }
 
 figcaption,
@@ -906,6 +906,7 @@ footer {
 }
 
 .after-table a:hover{
+    color: #666;
     text-decoration: none;
 }
 
