@@ -3,7 +3,7 @@ html {
 }
 
 
-*{
+* {
     outline: none;
 }
 
@@ -219,7 +219,7 @@ a.in {
 }
 
 .main-info {
-    padding: 29px 0;
+    margin: 29px 0;
 }
 
 .main-information {
@@ -265,7 +265,7 @@ a.in {
     width: 1px;
     height: 58px;
     top: -2px;
-    right: -25px;
+    right: -45px;
 }
 
 .phones p:first-child,
@@ -275,7 +275,7 @@ a.in {
 
 
 .phones {
-    padding-right: 23px;
+    margin-right: 23px;
 }
 
 .phones a:hover {
@@ -333,14 +333,14 @@ a.in {
 }
 
 .proposition {
-    min-height: 200px;
+    padding: 40px;
     text-align: center;
     background: #211f15 url(../img/picture.jpg) no-repeat;
     background-size: cover;
 }
 
 .proposition h1 {
-    padding-top: 58px;
+    margin: 0;
     color: #ffffff;
     font-size: 30rem;
     font-weight: 700;
@@ -376,7 +376,6 @@ sup {
     font-weight: bold;
     font-family: "Arial";
     margin: 0;
-    padding-bottom: 39px;
 }
 
 
@@ -386,7 +385,7 @@ sup {
 
 .flex {
     display: flex;
-    padding-top: 43px;
+    margin-top: 43px;
 }
 
 .main-text {
@@ -429,7 +428,7 @@ main p {
     font-size: 14rem;
     font-weight: bold;
     font-family: "Arial";
-    
+
     text-decoration: underline;
 }
 
@@ -443,9 +442,6 @@ figure {
     margin: 0;
 }
 
-.flex figure {
-    padding-right: 29px;
-}
 
 .aside-menu {
     width: 220rem;
@@ -562,6 +558,7 @@ figure {
     display: flex;
     position: relative;
     margin-bottom: 35px;
+    column-gap: 30px;
 }
 
 .main-list img {
@@ -581,7 +578,7 @@ figure {
 }
 
 
-.house{
+.house {
     position: relative;
 }
 
@@ -616,7 +613,7 @@ hr {
 
 
 .hr {
-    max-width: 710px;
+    max-width: 731px;
     border: none;
     border-top: 1px solid #e4e4ec;
 }
@@ -632,7 +629,7 @@ hr {
     text-decoration: none;
 }
 
-.table-info a:hover{
+.table-info a:hover {
     color: #fd8300;
     text-decoration: none;
 }
@@ -765,10 +762,11 @@ hr {
     display: flex;
 }
 
-.buttons form{
+.buttons form {
     padding: 17px 10px 0 29px;
 }
-.checkbox{
+
+.checkbox {
     display: flex;
     padding-top: 12px;
 }
@@ -818,36 +816,18 @@ footer {
     border-bottom: transparent solid 2px;
 }
 
-
-.about-goods li:not(.about-goods li:first-child) {
-    padding-top: 6px;
-}
-
-.about-goods li:not(.hard) {
-    width: 43%;
-}
-
-.about-goods li:first-child {
-    width: 53%;
-}
-
-.about-goods li:last-child {
-    width: 49%;
-}
-
-.about-goods a:hover {
-    border-color: #fd8300;
-}
-
 .about-goods a:hover,
 .about-company a:hover {
     color: #fd8300;
 }
 
 
-.about-company li:not(.about-company li:first-child) {
-    line-height: 26px;
+.about-goods a:hover {
+    border-color: #fd8300;
 }
+
+
+
 
 
 
@@ -905,7 +885,7 @@ footer {
     padding-top: 26px;
 }
 
-.after-table a:hover{
+.after-table a:hover {
     color: #666;
     text-decoration: none;
 }
@@ -924,7 +904,7 @@ footer {
 }
 
 .homes thead th:last-child,
-.homes tr td:last-child{
+.homes tr td:last-child {
     text-align: right;
     padding-right: 19px;
 }
@@ -944,7 +924,7 @@ footer {
     font-family: 'Roboto Slab', serif;
 }
 
-.homes h4:not(.last-title){
+.homes h4:not(.last-title) {
     text-align: left;
 }
 
@@ -974,6 +954,6 @@ footer {
     border: none;
 }
 
-.last-title{
+.last-title {
     text-align: right;
 }
