@@ -921,6 +921,9 @@ footer {
     font-size: 14rem;
     font-weight: 700;
     font-family: 'Roboto Slab', serif;
+}
+
+.homes h4:not(.last-title){
     text-align: left;
 }
 
@@ -950,4 +953,6 @@ footer {
     border: none;
 }
 
-.homes tbody tr:last-child {}
+.last-title{
+    text-align: right;
+}
