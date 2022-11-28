@@ -581,6 +581,10 @@ figure {
 }
 
 
+.house{
+    position: relative;
+}
+
 
 .house a {
     position: absolute;
