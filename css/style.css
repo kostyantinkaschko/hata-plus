@@ -3,7 +3,9 @@ html {
 }
 
 
-
+*{
+    outline: none;
+}
 
 body {
     margin: 0;
@@ -622,6 +624,12 @@ hr {
 }
 
 .table-info a {
+    transition: all .5s ease;
+    text-decoration: none;
+}
+
+.table-info a:hover{
+    color: #fd8300;
     text-decoration: none;
 }
 
@@ -751,6 +759,14 @@ hr {
 
 .buttons {
     display: flex;
+}
+
+.buttons form{
+    padding: 17px 10px 0 29px;
+}
+.checkbox{
+    display: flex;
+    padding-top: 12px;
 }
 
 footer {
