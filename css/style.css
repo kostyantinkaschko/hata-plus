@@ -700,8 +700,6 @@ hr {
     margin: 0 27px 39px 0;
     max-width: 498px;
     max-height: 336px;
-    background-image: url(../img/map.jpg);
-    background-size: cover;
 }
 
 .form-help h3 {
