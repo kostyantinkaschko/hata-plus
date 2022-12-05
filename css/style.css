@@ -219,7 +219,7 @@ a.in {
 }
 
 .main-info {
-    margin: 29px 0;
+    padding: 29px 0;
 }
 
 .main-information {
@@ -711,7 +711,15 @@ hr {
     font-family: "Roboto Slab";
 }
 
-.search input {
+.form input::placeholder,
+.form textarea::placeholder {
+
+    font-family: Arial;
+    font-style: italic;
+}
+
+.search input,
+.search textarea {
     color: #262626;
     font-size: 15px;
     opacity: 0.702;
@@ -721,7 +729,7 @@ hr {
 
 .search input:first-child,
 .mobile {
-    padding: 14px 78px 14px 14px;
+    padding: 14px 82px 14px 17px;
 }
 
 .search input:first-child {
@@ -729,18 +737,20 @@ hr {
 }
 
 .message {
-    width: 100%;
-    padding: 14px 0 14px 14px;
+    width: 97%;
+    padding: 14px 0 0 14px;
     margin: 10px 0;
 }
 
-.search input:last-child {
-    width: 100%;
+.search textarea:last-child {
+    width: 97%;
     padding: 14px 0 79px 14px;
 }
 
-.form-help button {
-    margin-top: 13px;
+/* .form-help input[type=submit] а так можна? Просто воно працює
+тільки вот я незнаю чи можна так робити на практиці */
+
+.submit {
     padding: 15px 12px;
     width: 140px;
     color: #fff;
@@ -752,6 +762,8 @@ hr {
     cursor: pointer;
 }
 
+
+
 .form-help button:hover {
     color: #fd8300;
     background-color: #fff;
@@ -762,14 +774,19 @@ hr {
     display: flex;
 }
 
-.buttons form {
-    padding: 17px 10px 0 29px;
+.checkbox {
+    margin: 16px 10px 0 0;
+}
+
+.checkbox p {
+    margin: 0;
 }
 
 .checkbox {
     display: flex;
-    padding-top: 12px;
 }
+
+
 
 footer {
     border-right: none;
