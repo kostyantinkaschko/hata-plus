@@ -751,9 +751,6 @@ hr {
     padding: 14px 0 79px 14px;
 }
 
-/* .form-help input[type=submit] а так можна? Просто воно працює
-тільки вот я незнаю чи можна так робити на практиці */
-
 .submit {
     padding: 15px 12px;
     width: 140px;
