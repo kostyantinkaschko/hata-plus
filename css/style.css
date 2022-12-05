@@ -727,15 +727,11 @@ hr {
     border-radius: 3px;
 }
 
-.search input:first-child {
-    padding: 14px 82px 14px 15px;
-}
-
+.search input:first-child,
 .mobile {
-    padding: 14px 78px 14px 22px;
+    padding: 14px 0 14px 15px;
+    width: 46%;
 }
-
-
 .search input:first-child {
     margin-right: 8px;
 }
