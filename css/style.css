@@ -344,7 +344,7 @@ a.in {
     color: #ffffff;
     font-size: 30rem;
     font-weight: 700;
-    font-family: "Roboto Slab";
+    font-family: 'Roboto Slab', serif;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
@@ -402,7 +402,7 @@ sup {
     color: #24242b;
     font-size: 30rem;
     font-weight: 700;
-    font-family: "Roboto Slab";
+    font-family: 'Roboto Slab', serif;
 }
 
 main p {
@@ -597,7 +597,7 @@ figure {
 .popular-projects {
     font-size: 24rem;
     color: #24242b;
-    font-family: "Roboto Slab";
+    font-family: 'Roboto Slab', serif;
 }
 
 .main-list div {
@@ -647,7 +647,7 @@ hr {
     color: #24242b;
     font-size: 24px;
     font-weight: 700;
-    font-family: "Roboto Slab";
+    font-family: 'Roboto Slab', serif;
 }
 
 .table-information td {
@@ -663,7 +663,7 @@ hr {
     color: #24242b;
     font-size: 14rem;
     font-weight: 700;
-    font-family: "Roboto Slab";
+    font-family: 'Roboto Slab', serif;
 }
 
 .last-table {
@@ -706,7 +706,7 @@ hr {
     color: #24242b;
     font-size: 14rem;
     font-weight: 700;
-    font-family: "Roboto Slab";
+    font-family: 'Roboto Slab', serif;
 }
 
 .form input::placeholder,
@@ -874,7 +874,7 @@ footer {
     color: #24242b;
     font-size: 24rem;
     font-weight: 700;
-    font-family: "Roboto Slab";
+    font-family: 'Roboto Slab', serif;
 }
 
 .before-table p,
