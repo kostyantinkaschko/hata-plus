@@ -716,7 +716,7 @@ hr {
     font-style: italic;
 }
 
-.search input,
+.search input:not(.submit),
 .search textarea {
     color: #262626;
     font-size: 15px;
@@ -725,18 +725,24 @@ hr {
     border-radius: 3px;
 }
 
-.search input:first-child,
+.search input:first-child:not(input[type="checkbox"], input[type="submit"]),
 .mobile {
     padding: 14px 0 14px 15px;
     width: 46%;
 }
-.search input:first-child {
+.search input:first-child:not(.submit) {
     margin-right: 8px;
 }
 
 .message {
     width: 97%;
-    padding: 14px 0 0 14px;
+    padding: 14px 0 52px 14px;
+    margin: 10px 0;
+}
+
+.them{
+    width: 97%;
+    padding: 14px 0 17px 14px;
     margin: 10px 0;
 }
 
@@ -747,41 +753,33 @@ hr {
 
 .submit {
     padding: 15px 12px;
+    margin-right: 27px;
     width: 140px;
     color: #fff;
     font-size: 14rem;
     font-weight: bold;
     background-color: #fd8300;
-    border-radius: 25px;
+    border-radius: 30px;
     border: 1px solid #fd8300;
     cursor: pointer;
 }
 
 
 
-.form-help button:hover {
+.submit:hover {
     color: #fd8300;
     background-color: #fff;
 
 }
 
-.buttons {
+
+.checkbox{
     display: flex;
 }
 
-.checkbox {
-    margin: 16px 10px 0 0;
+.checkbox p{
+    margin: 12px;
 }
-
-.checkbox p {
-    margin: 0;
-}
-
-.checkbox {
-    display: flex;
-}
-
-
 
 footer {
     border-right: none;

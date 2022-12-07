@@ -161,20 +161,16 @@
                 <div class="form-help">
                     <h3>Форма зворотнього зв’язку</h3>
                     <form class="search" method="get" action="#">
-                        <input type="text" placeholder="Ваше ім'я" required>
-                        <input class="mobile" type="number" placeholder="Телефон" required>
-                        <textarea class="message" placeholder="Тема повідомлення"></textarea>
-                        <textarea class="message" placeholder="Текст" required></textarea>
-                    </form>
-                    <div class="buttons">
-                        <form action="#" method="get"><input class="submit" type="submit" value="Відправити"></input></form>
+                        <input type="text" maxlength="25" placeholder="Ваше ім'я" required>
+                        <input class="mobile" type="number" maxlength="15" placeholder="Телефон" required>
+                        <input class="them" maxlength="25" placeholder="Тема повідомлення" required>
+                        <textarea class="message" maxlength="" placeholder="Текст" required></textarea>
                         <div class="checkbox">
-                            <form method="get" action="#">
-                                <input type="checkbox" value="accept" required>
-                            </form>
+                        <input class="submit" type="submit" value="Відправити">
+                            <input type="checkbox" value="accept" required>
                             <p>Я бажаю отримувати останні новини</p>
                         </div>
-                    </div>
+                    </form>
                 </div>
             </div>
         </main>
