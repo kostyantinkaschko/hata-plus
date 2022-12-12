@@ -768,7 +768,7 @@ hr {
 }
 
 .submit {
-    padding: 15px 21px;
+    padding: 15px 15px;
     margin-right: 27px;
     color: #fff;
     font-size: 14rem;
@@ -792,8 +792,15 @@ hr {
     display: flex;
 }
 
-.checkbox p {
+.checkbox span {
     margin: 12px;
+    color: #666666;
+    font-size: 13px;
+    font-family: "Arial";
+}
+
+.checkbox-label{
+    margin-top: 14px;
 }
 
 footer {
