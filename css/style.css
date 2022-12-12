@@ -679,7 +679,7 @@ hr {
     font-family: "Arial";
 }
 
-.hyperlink-phone td{
+.hyperlink-phone td {
     padding-top: 13px;
 }
 
@@ -693,7 +693,7 @@ hr {
 
 
 
-.title td{
+.title td {
     color: #666666;
     font-size: 14px;
     font-family: "Arial";
@@ -752,6 +752,7 @@ hr {
 .message {
     width: 97%;
     padding: 14px 0 52px 14px;
+    margin: 0 0 10px 0;
 }
 
 .them {
@@ -768,7 +769,6 @@ hr {
 .submit {
     padding: 15px 12px;
     margin-right: 27px;
-    width: 140px;
     color: #fff;
     font-size: 14rem;
     font-weight: bold;
