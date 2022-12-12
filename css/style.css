@@ -654,15 +654,12 @@ hr {
     font-family: 'Roboto Slab', serif;
 }
 
-.table-information td {
-    padding-bottom: 14px;
-}
 
 
 .table-information th,
 .table-post th,
 .last-table th {
-    padding-bottom: 18px;
+    padding-bottom: 11px;
     text-align: left;
     color: #24242b;
     font-size: 14rem;
@@ -682,6 +679,10 @@ hr {
     font-family: "Arial";
 }
 
+.hyperlink-phone td{
+    padding-top: 13px;
+}
+
 .hyperlink-phone a {
     font-size: 16rem;
     text-decoration: underline;
@@ -690,11 +691,15 @@ hr {
 }
 
 
-.title {
-    font-size: 14px;
+
+
+.title td{
     color: #666666;
+    font-size: 14px;
     font-family: "Arial";
 }
+
+
 
 .form {
     display: flex;
