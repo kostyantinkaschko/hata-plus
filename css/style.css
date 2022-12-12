@@ -4,6 +4,7 @@ html {
 
 textarea {
     resize: vertical;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 
@@ -767,7 +768,7 @@ hr {
 }
 
 .submit {
-    padding: 15px 12px;
+    padding: 15px 21px;
     margin-right: 27px;
     color: #fff;
     font-size: 14rem;
