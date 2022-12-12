@@ -2,6 +2,10 @@ html {
     font-size: 1px;
 }
 
+textarea {
+    resize: vertical;
+}
+
 
 * {
     outline: none;
@@ -696,6 +700,8 @@ hr {
     display: flex;
 }
 
+
+
 .form iframe {
     margin: 0 27px 39px 0;
     max-width: 498px;
@@ -703,14 +709,10 @@ hr {
     border: none;
 }
 
-.form .map iframe {
-    position: absolute;
-    top: -20%;
-    border: none;
-}
 
-.form-help h3 {
+.form h3 {
     color: #24242b;
+    font-size: 14px;
     font-size: 14rem;
     font-weight: 700;
     font-family: 'Roboto Slab', serif;
@@ -735,8 +737,9 @@ hr {
 .search input:first-child:not(input[type="checkbox"], input[type="submit"]),
 .mobile {
     padding: 14px 0 14px 15px;
-    width: 46%;
+    width: 45%;
 }
+
 .search input:first-child:not(.submit) {
     margin-right: 8px;
 }
@@ -747,7 +750,7 @@ hr {
     margin: 10px 0;
 }
 
-.them{
+.them {
     width: 97%;
     padding: 14px 0 17px 14px;
     margin: 10px 0;
@@ -780,11 +783,11 @@ hr {
 }
 
 
-.checkbox{
+.checkbox {
     display: flex;
 }
 
-.checkbox p{
+.checkbox p {
     margin: 12px;
 }
 
