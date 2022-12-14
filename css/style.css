@@ -390,6 +390,9 @@ sup {
 
 .flex {
     display: flex;
+}
+
+.flex-marg{
     margin-top: 43px;
 }
 
@@ -706,15 +709,18 @@ hr {
     display: flex;
 }
 
-.map{
+.forms{
     width: 100%;
-    height: 100px;
+}
+
+.map{
+    margin: 0 27px 39px 0;
+    width: 100%;
     overflow: hidden;
 }
 
 
 .form iframe {
-    margin: 0 27px 39px 0;
     margin-top: -60px;
     max-width: 498px;
     max-height: 390px;
@@ -724,7 +730,6 @@ hr {
 
 .form h3 {
     color: #24242b;
-    font-size: 14px;
     font-size: 14rem;
     font-weight: 700;
     font-family: 'Roboto Slab', serif;
