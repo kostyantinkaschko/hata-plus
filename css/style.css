@@ -706,12 +706,18 @@ hr {
     display: flex;
 }
 
+.map{
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+}
 
 
 .form iframe {
     margin: 0 27px 39px 0;
+    margin-top: -60px;
     max-width: 498px;
-    max-height: 336px;
+    max-height: 390px;
     border: none;
 }
 
@@ -790,6 +796,7 @@ hr {
 
 .checkbox {
     display: flex;
+    position: relative;
 }
 
 .checkbox span {
@@ -799,8 +806,58 @@ hr {
     font-family: "Arial";
 }
 
-.checkbox-label{
+.checkbox-label {
     margin-top: 14px;
+}
+
+
+z
+
+.checkbox-button input:checked+.checkbox-label:before {
+    border-color: #666;
+}
+
+.checkbox-button {
+    position: absolute;
+    left: 138px;
+    top: 12px;
+    display: none;
+}
+
+.checkbox-button:focus .checkbox-label::before{
+    display: block;
+}
+
+.checkbox-label::before {
+    content: "";
+    position: absolute;
+    top: 4px;
+    left: 3px;
+    z-index: 1;
+    width: 10px;
+    height: 5px;
+    border-left: 2px solid #1f1f56;
+    border-bottom: 2px solid #1f1f56;
+    transform: rotate(-45deg);
+    box-sizing: border-box;
+}
+
+.checkbox-label::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 3px;
+    background-color: #fff;
+    border: 1px solid #c5c5d4;
+}
+
+
+.checkbox-button+.checkbox-label {
+    position: relative;
+    padding-left: 25px;
+    cursor: pointer;
 }
 
 footer {
