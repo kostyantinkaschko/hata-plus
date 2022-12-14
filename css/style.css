@@ -45,7 +45,6 @@ h3:hover {
 .flex-beetwen {
     display: flex;
     justify-content: space-between;
-    column-gap: 28px;
     row-gap: 28px;
 }
 
@@ -757,9 +756,6 @@ hr {
     width: 45%;
 }
 
-.search input:first-child:not(.submit) {
-    margin-right: 8px;
-}
 
 .message {
     width: 97%;
