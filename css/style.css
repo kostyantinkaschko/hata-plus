@@ -391,7 +391,7 @@ sup {
     display: flex;
 }
 
-.flex-marg{
+.flex-marg {
     margin-top: 43px;
 }
 
@@ -708,11 +708,11 @@ hr {
     display: flex;
 }
 
-.forms{
+.forms {
     width: 100%;
 }
 
-.map{
+.map {
     margin: 0 27px 39px 0;
     width: 100%;
     overflow: hidden;
@@ -720,12 +720,11 @@ hr {
 
 
 .form iframe {
-    margin-top: -60px;
+    margin-top: -80px;
     max-width: 498px;
-    max-height: 390px;
+    max-height: 409px;
     border: none;
 }
-
 
 .form h3 {
     color: #24242b;
@@ -805,6 +804,7 @@ hr {
     color: #666666;
     font-size: 13px;
     font-family: "Arial";
+    cursor: pointer;
 }
 
 .checkbox-label {
@@ -812,28 +812,27 @@ hr {
 }
 
 
-z
 
-.checkbox-button input:checked+.checkbox-label:before {
-    border-color: #666;
-}
 
 .checkbox-button {
     position: absolute;
-    left: 138px;
+    left: 130px;
     top: 12px;
-    display: none;
+    cursor: pointer;
 }
 
-.checkbox-button:focus .checkbox-label::before{
-    display: block;
+
+.checkbox-label:after,
+.checkbox-label:before {
+    content: "";
+    position: absolute;
+    cursor: pointer;
 }
 
 .checkbox-label::before {
-    content: "";
-    position: absolute;
-    top: 4px;
-    left: 3px;
+    display: none;
+    top: 190000px;
+    left: 136px;
     z-index: 1;
     width: 10px;
     height: 5px;
@@ -843,17 +842,20 @@ z
     box-sizing: border-box;
 }
 
-.checkbox-label::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    width: 15px;
-    height: 15px;
+
+.checkbox-label:after {
+    left: 133px;
+    top: 15px;
+    width: 12px;
+    height: 12px;
+    background: #fff;
+    border: 1px solid #c4c4d3;
     border-radius: 3px;
-    background-color: #fff;
-    border: 1px solid #c5c5d4;
 }
 
+.checkbox-button:checked .checkbox-label::before{
+    top: 19px;
+}
 
 .checkbox-button+.checkbox-label {
     position: relative;
