@@ -774,17 +774,16 @@ hr {
 }
 
 .submit {
-    padding: 0 35px;
-    margin-right: 27px;
+    padding: 15px 35px;
+    margin: 10px 27px 0 0;
     color: #fff;
-    font-size: 14rem;
+    height: fit-content;
     font-weight: bold;
     background-color: #fd8300;
     border-radius: 30px;
     border: 1px solid #fd8300;
     cursor: pointer;
 }
-
 
 
 .submit:hover {
