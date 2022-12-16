@@ -774,7 +774,7 @@ hr {
 }
 
 .submit {
-    padding: 15px 15px;
+    padding: 0 35px;
     margin-right: 27px;
     color: #fff;
     font-size: 14rem;
@@ -793,75 +793,58 @@ hr {
 
 }
 
+.search input[type="checkbox"] {
+    display: none;
+}
 
-.checkbox {
-    display: flex;
+.search input[type="checkbox"]+.checkbox {
     position: relative;
-}
-
-.checkbox span {
-    margin: 12px;
-    color: #666666;
-    font-size: 13px;
-    font-family: "Arial";
+    padding: 20px 12px;
     cursor: pointer;
 }
 
-.checkbox-label {
-    margin-top: 14px;
+.search input[type="checkbox"]:checked + .checkbox::before {
+    z-index: 0;
 }
 
 
-
-
-.checkbox-button {
-    position: absolute;
-    left: 130px;
-    top: 12px;
-    cursor: pointer;
-}
-
-
-.checkbox-label:after,
-.checkbox-label:before {
+.search input[type="checkbox"] + .checkbox:before,
+.search input[type="checkbox"] + .checkbox::after{
     content: "";
     position: absolute;
-    cursor: pointer;
 }
 
-.checkbox-label::before {
-    display: none;
-    top: 190000px;
-    left: 136px;
+.search input[type="checkbox"] + .checkbox:before {
+    left: -11px;
+    top: 23px;
+    width: 15px;
+    height: 15px;
+    border-radius: 3px;
     z-index: 1;
-    width: 10px;
+    background-color: #fff;
+    border: 1px solid #c5c5d4;
+}
+
+.search input[type="checkbox"] +.checkbox:after{
+    top: 28px;
+    left: -7px;
+    width: 9px;
     height: 5px;
     border-left: 2px solid #1f1f56;
     border-bottom: 2px solid #1f1f56;
-    transform: rotate(-45deg);
+    transform: rotate(-52deg);
     box-sizing: border-box;
 }
 
 
-.checkbox-label:after {
-    left: 133px;
-    top: 15px;
-    width: 12px;
-    height: 12px;
-    background: #fff;
-    border: 1px solid #c4c4d3;
-    border-radius: 3px;
+
+.checkbox span {
+    color: #666;
+    font-size: 13rem;
+    font-family: "Arial";
+    line-height: 21px;
 }
 
-.checkbox-button:checked .checkbox-label::before{
-    top: 19px;
-}
-
-.checkbox-button+.checkbox-label {
-    position: relative;
-    padding-left: 25px;
-    cursor: pointer;
-}
 
 footer {
     border-right: none;
